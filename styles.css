@@ -1,40 +1,30 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+    background-image: url('moon_sky_background.jpg'); /* قم بإضافة صورة خلفية هنا */
+    background-size: cover;
+    color: white;
+    text-align: center;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
 }
 
 .container {
-    text-align: center;
-    background-color: #fff;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-}
-
-h1 {
-    color: #4a90e2;
-}
-
-#story-container {
-    margin: 20px 0;
+    padding: 20px;
 }
 
 button {
-    background-color: #4a90e2;
-    color: #fff;
-    border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px;
     cursor: pointer;
-    font-size: 1em;
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 5px;
 }
 
 button:hover {
-    background-color: #357ABD;
+    background-color: darkblue;
+}
+
+.hidden {
+    display: none;
 }
